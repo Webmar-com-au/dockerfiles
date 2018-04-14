@@ -1,7 +1,7 @@
 FROM aegir/hostmaster
 
 # Change this for released versions
-ENV AEGIR_MAKEFILE https://raw.githubusercontent.com/opendevshop/devshop/1.x/build-devmaster.make
+ENV AEGIR_MAKEFILE https://raw.githubusercontent.com/Webmar-com-au/devshop/1.x/build-devmaster.make
 ENV AEGIR_PROFILE devmaster
 ENV AEGIR_HOSTMASTER_ROOT /var/aegir/devmaster-1.x
 
