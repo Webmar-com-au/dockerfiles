@@ -13,7 +13,7 @@ RUN chmod +x /usr/local/bin/run-tests.sh
 
 # Install devshop CLI
 RUN \
-  git clone https://github.com/opendevshop/devshop /usr/share/devshop && \
+  git clone https://github.com/Webmar-com-au/devshop /usr/share/devshop && \
   cd /usr/share/devshop && \
   composer install && \
   ln -s /usr/share/devshop/bin/devshop /usr/local/bin/devshop
