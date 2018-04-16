@@ -5,7 +5,7 @@ version: '2'
 services:
 
   devmaster:
-    image: devshop/devmaster
+    image: webmar/devshop-fork
     ports:
       - 80:80
     hostname: devshop.local.computer
